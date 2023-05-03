@@ -1,0 +1,42 @@
+[
+	{
+		"file": "D:\\Unreal Project\\Flocking\\Source\\Flocking\\Flocking.Build.cs",
+		"arguments": [
+			"C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe",
+			"@D:\\Unreal Project\\Flocking\\.vscode\\compileCommands_Flocking\\Flocking.255.rsp"
+		],
+		"directory": "E:\\UE_5.1\\Engine\\Source"
+	},
+	{
+		"file": "D:\\Unreal Project\\Flocking\\Source\\Flocking\\Flocking.cpp",
+		"arguments": [
+			"C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe",
+			"@D:\\Unreal Project\\Flocking\\.vscode\\compileCommands_Flocking\\Flocking.255.rsp"
+		],
+		"directory": "E:\\UE_5.1\\Engine\\Source"
+	},
+	{
+		"file": "D:\\Unreal Project\\Flocking\\Source\\Flocking\\Flocking.h",
+		"arguments": [
+			"C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe",
+			"@D:\\Unreal Project\\Flocking\\.vscode\\compileCommands_Flocking\\Flocking.255.rsp"
+		],
+		"directory": "E:\\UE_5.1\\Engine\\Source"
+	},
+	{
+		"file": "D:\\Unreal Project\\Flocking\\Source\\Flocking\\FlockingGameModeBase.cpp",
+		"arguments": [
+			"C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe",
+			"@D:\\Unreal Project\\Flocking\\.vscode\\compileCommands_Flocking\\Flocking.255.rsp"
+		],
+		"directory": "E:\\UE_5.1\\Engine\\Source"
+	},
+	{
+		"file": "D:\\Unreal Project\\Flocking\\Source\\Flocking\\FlockingGameModeBase.h",
+		"arguments": [
+			"C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe",
+			"@D:\\Unreal Project\\Flocking\\.vscode\\compileCommands_Flocking\\Flocking.255.rsp"
+		],
+		"directory": "E:\\UE_5.1\\Engine\\Source"
+	}
+]

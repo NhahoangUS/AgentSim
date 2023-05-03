@@ -1,0 +1,41 @@
+{
+	"folders": [
+		{
+			"name": "Flocking",
+			"path": "."
+		},
+		{
+			"name": "UE5",
+			"path": "E:\\UE_5.1"
+		}
+	],
+	"settings": {
+		"typescript.tsc.autoDetect": "off",
+		"files.associations": {
+			"*.rh": "cpp",
+			"*.ipp": "cpp",
+			"locale": "cpp",
+			"thread": "cpp",
+			"xlocale": "cpp",
+			"xlocmes": "cpp",
+			"xlocmon": "cpp",
+			"xlocnum": "cpp",
+			"xloctime": "cpp",
+			"__locale": "cpp",
+			"queue": "cpp",
+			"stack": "cpp",
+			"format": "cpp",
+			"future": "cpp",
+			"istream": "cpp",
+			"memory": "cpp",
+			"type_traits": "cpp",
+			"tuple": "cpp"
+		}
+	},
+	"extensions": {
+		"recommendations": [
+			"ms-vscode.cpptools",
+			"ms-dotnettools.csharp"
+		]
+	}
+}
