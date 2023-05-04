@@ -31,6 +31,7 @@ void UFlockingManager::Flock() {
     for (int i = 0; i < Agents.Num(); i++) {
 		AAgent* agent = Agents[i];
 
+		//m1, m2, m3, m4 used for Anti-flocking behaviour
 		agent->Velocity +=  Rule1(i)       * m1 * agent->DeltaTimeGlobal 
                         +   Rule2(i)       * m2 * agent->DeltaTimeGlobal 
                         +   Rule3(i)       * m3 * agent->DeltaTimeGlobal 
@@ -40,6 +41,7 @@ void UFlockingManager::Flock() {
 	}
 }
 
+//Rule 1: Boids try to fly towards the centre of mass of neighbouring boids.
 FVector UFlockingManager::Rule1(int id)
 {
 	FVector pc;
@@ -53,6 +55,7 @@ FVector UFlockingManager::Rule1(int id)
 	return(pc - Agents[id]->GetActorLocation()) / 100;
 }
 
+//Rule 2: Boids try to keep a small distance away from other objects (including other boids).
 FVector UFlockingManager::Rule2(int id)
 {
 	FVector c = FVector(0,0,0);
@@ -67,6 +70,7 @@ FVector UFlockingManager::Rule2(int id)
 	return c;
 }
 
+//Rule 3: Boids try to match velocity with near boids.
 FVector UFlockingManager::Rule3(int id)
 {
     FVector pv = FVector(0,0,0);
@@ -80,12 +84,14 @@ FVector UFlockingManager::Rule3(int id)
 	return(pv - Agents[id]->Velocity) / 8;
 }
 
+//Tendency towards a particular place
 FVector UFlockingManager::TendToPlace(int id)
 {
 	FVector Place = FVector(20,20,20);
 	return (Place - Agents[id]->GetActorLocation()) / 100;
 }
 
+//Limiting the speed
 void UFlockingManager::LimitVelocity(int id)
 {
 	int vlim = 20.0;
